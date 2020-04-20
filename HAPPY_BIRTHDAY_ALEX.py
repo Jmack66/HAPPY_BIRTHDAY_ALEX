@@ -38,6 +38,7 @@ def main():
 	#-------------------------------------
 	find_avgAlex(alex2,avgVals,names)
 	alex.show()
+	print("HAPPY BIRTH OF ALEX!!!!!!!")
 
 def find_avg(photo):
 	data = np.asarray(photo)
