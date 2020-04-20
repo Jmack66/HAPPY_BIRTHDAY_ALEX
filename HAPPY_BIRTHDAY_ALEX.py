@@ -1,4 +1,3 @@
-import cv2
 from PIL import Image
 import numpy as np
 global lim,RX,RY,names
@@ -80,7 +79,7 @@ def find_avgAlex(photo,avgVals,names):
 					photo.paste(paste_im4,(x*lim,y*lim))
 
 	photo.show()
-	photo.save("ALEX.jpg")			
+	photo.save("ALEX_MOSAIC.jpg")			
 	return 
 
 
